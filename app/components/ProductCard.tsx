@@ -31,7 +31,9 @@ const ProductCard = ({
   
     <img
       src={productImage}
-      alt=""
+      alt="aa"
+      width="256"
+      height="256"
       className="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
     />
   

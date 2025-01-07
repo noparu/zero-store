@@ -5,18 +5,17 @@ const Footer = () => {
     <footer className="border-t border-gray-200 bg-gray-50">
   <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
     <div className="text-center">
-      <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl">Customise Your Product</h2>
+      <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl">Sesuaikan Produk Anda</h2>
 
       <p className="mx-auto mt-4 max-w-sm text-gray-500">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum maiores ipsum eos temporibus
-        ea nihil.
+      Buat dekorasi kayu yang unik dan sesuai keinginan Anda. Kami siap mewujudkan ide-ide Anda dengan kualitas terbaik dan sentuhan personal.
       </p>
 
       <a
         href="#"
         className="mt-8 transition inline-block rounded-full border border-teal-600 px-12 py-3 text-sm font-medium text-teal-600 hover:bg-teal-600 hover:text-white focus:outline-none focus:ring active:bg-teal-500"
       >
-        Get Started
+        Mulai Sekarang
       </a>
     </div>
 

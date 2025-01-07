@@ -23,30 +23,30 @@ const Navbar = () => {
           </svg>
         </a>
 
-        <div className="flex flex-1 items-center justify-end md:justify-between">
-          <nav aria-label="Global" className={`absolute left-0 top-0 transition-all z-40 md:z-50 -ml-0 ${!toggleNavbar ? '-ml-[300px] md:-ml-0' : '-ml-0'} md:relative mt-16 md:mt-0 p-4 md:p-0 bg-white md:bg-transparent w-[300px] md:w-fit border-r md:border-r-0 border-t md:border-t-0 h-dvh md:h-fit md:border-none border-gray-200 md:block`}>
-            <ul className={`flex flex-col md:flex-row items-start md:items-center gap-6 text-sm w-full md:w-fit`}>
-              <li className='flex w-full md:w-fit '>
-                <Link className="text-gray-500 transition hover:text-gray-500/75 w-full" href="#"> Daftar Produk </Link>
+        <div className="flex flex-1 items-center justify-end">
+          <nav aria-label="Global" className={`absolute left-0 top-0 transition-all z-40 -ml-0 ${!toggleNavbar ? '-ml-[300px]' : '-ml-0'} mt-16 p-4 bg-white w-[300px] border-r border-t h-dvh border-gray-200`}>
+            <ul className={`flex flex-col items-start gap-6 text-sm w-full`}>
+              <li className='flex w-full'>
+                <Link className="text-gray-500 transition hover:text-gray-500/75 w-full text-lg" href="#"> Daftar Produk </Link>
               </li>
               
-              <li className='flex w-full md:w-fit '>
-                <Link className="text-gray-500 transition hover:text-gray-500/75 w-full" href="#"> Kategori </Link>
+              <li className='flex w-full'>
+                <Link className="text-gray-500 transition hover:text-gray-500/75 w-full text-lg" href="#"> Kategori </Link>
               </li>
 
-              <li className='flex w-full md:w-fit '>
-                <Link className="text-gray-500 transition hover:text-gray-500/75 w-full" href="#"> Tentang Kami </Link>
+              <li className='flex w-full'>
+                <Link className="text-gray-500 transition hover:text-gray-500/75 w-full text-lg" href="#"> Tentang Kami </Link>
               </li>
             </ul>
           </nav>
           
           {/* blackscreen */}
-          <div className={`${!toggleNavbar ? "w-0" : "w-full"} transition-all md:hidden absolute mt-16 left-0 top-0 w-full h-dvh bg-black/30 z-30`} onClick={handleToggleNavbar}></div>
+          <div className={`${!toggleNavbar ? "w-0 opacity-0" : "w-full opacity-100"} transition-all absolute mt-16 left-0 top-0 h-dvh bg-black/30 z-30`} onClick={handleToggleNavbar}></div>
 
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
               <a
-                className="block rounded-md bg-transparent md:bg-teal-600 text-teal-600 px-3 md:px-5 py-2.5 text-sm font-medium md:text-white transition md:hover:bg-teal-700 hover:text-teal-700 md:hover:text-white"
+                className="block rounded-md bg-transparent text-teal-600 px-3 md:px-5 py-2.5 text-sm font-medium transition hover:text-teal-700"
                 href="#"
               >
                 <CartIcon />
@@ -54,7 +54,7 @@ const Navbar = () => {
             </div>
 
             <button
-              className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden"
+              className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75"
             type='button'
             onClick={handleToggleNavbar}
             >

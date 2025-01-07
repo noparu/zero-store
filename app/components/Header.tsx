@@ -6,10 +6,10 @@ const Header = () => {
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <div className="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">Blog Posts</h1>
+            <h1 className="text-2xl font-bold text-teal-900 sm:text-3xl">Bushido Decoration</h1>
 
             <p className="mt-1.5 text-sm text-gray-500">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, recusandae.
+            Menghadirkan keindahan estetika melalui sentuhan kayu artistik.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ const Header = () => {
               className="inline-block rounded bg-teal-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-teal-700 focus:outline-none focus:ring"
               type="button"
             >
-              Create Post
+              Hubungi Kami
             </button>
           </div>
         </div>
