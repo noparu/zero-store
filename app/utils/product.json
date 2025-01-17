@@ -1,0 +1,26 @@
+[
+    {
+        "no": "1",
+        "title": "Painting 1",
+        "description": "",
+        "category": "",
+        "price": "Rp.",
+        "link": {
+            "name": "tokopedia",
+            "url": "https://tokopedia.com"
+        },
+        "image_url": "https://image.com"
+    },
+    {
+        "no": "2",
+        "title": "Painting 2",
+        "description": "",
+        "category": "",
+        "price": "Rp.",
+        "link": {
+            "name": "shopee",
+            "url": "https://shopee.com"
+        },
+        "image_url": "https://image.com"
+    }
+]
