@@ -131,6 +131,18 @@ const InputProductPage = () => {
                 />
             </div>
 
+            <div className={`w-full md:w-[350px]`}>
+                <label htmlFor="image_url" className="block font-medium text-gray-700"> Link Gambar </label>
+
+                <input
+                    type="text"
+                    name="image_url"
+                    placeholder="drive.com/imageUrl"
+                    onChange={(e) => handleChangeForm(e)}
+                    className="border mt-1 w-full rounded-md border-teal-600 shadow-sm px-3 py-2 outline-teal-700"
+                />
+            </div>
+
             <div className="flex justify-between w-full md:w-[350px]">
                 <button
                     className="inline-block rounded border border-indigo-600 px-12 py-3 text-sm font-medium text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
